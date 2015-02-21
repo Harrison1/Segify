@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="subreddit">#666666</color>
+    <color name="author">#666666</color>
+    <color name="list_divider">#d9d9d9</color>
+
+    <color name="list_row_start_color">#99FFFFFF</color>
+    <color name="list_row_end_color">#99FFFFFF</color>
+    <color name="list_row_hover_start_color">#990066FF</color>
+    <color name="list_row_hover_end_color">#995D5D5D</color>
+
+</resources>
+<!--
+<color name="list_row_start_color">#0066FF</color>
+<color name="list_row_end_color">#5D5D5D</color>
+-->
+
+
+
+

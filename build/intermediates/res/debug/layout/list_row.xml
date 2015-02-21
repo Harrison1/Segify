@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_bg"
+    android:padding="8dp" >
+
+    <!-- image pulled from reddit  android:background="@drawable/list_row_selector"-->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- reddit title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:textColor="#ff000000" />
+
+    <!-- subreddit -->
+    <TextView
+        android:id="@+id/subreddit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/subreddit"
+        android:textSize="@dimen/subreddit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title" />
+
+    <!-- author -->
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/author"
+        android:textSize="@dimen/author"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/subreddit"
+        android:layout_alignEnd="@+id/subreddit" />
+
+    <!-- postUrl -->
+    <TextView
+        android:id="@+id/postUrl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="0sp" />
+
+</RelativeLayout>
+
+<!-- From: file:/D:/AndroidStudioProjects/Segify/app/src/main/res/layout/list_row.xml -->

@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sonicland">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/segify_logo"
+        android:background="@drawable/segifylogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/horizontalScroll"
+    android:layout_below="@+id/segify_logo"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sega_button"
+            android:src="@drawable/sega_button_selector"
+            android:background="@null"
+            android:onClick="sonicUpdate" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sonic_button"
+            android:src="@drawable/sonic_button_selector"
+            android:background="@null"
+            android:onClick="sonicUpdate" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dreamcasat_button"
+            android:src="@drawable/dreamcast_button_selector"
+            android:background="@null"
+            android:onClick="dreamcastUpdate" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alien_button"
+            android:src="@drawable/alien_button_selector"
+            android:background="@null"
+            android:onClick="alienUpdate"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/genesis_button"
+            android:src="@drawable/genesis_button_selector"
+            android:background="@null"
+            android:onClick="genesisUpdate" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saturn_button"
+            android:src="@drawable/saturn_button_selector"
+            android:background="@null"
+            android:onClick="saturnUpdate" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gamegear_button"
+            android:src="@drawable/gamegear_button_selector"
+            android:background="@null"
+            android:onClick="gameGearUpdate"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pso_button"
+            android:src="@drawable/pso_button_selector"
+            android:background="@null"
+            android:onClick="psoUpdate" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jetset_button"
+            android:src="@drawable/jetset_button_selector"
+            android:background="@null"
+            android:onClick="jetSetUpdate" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valkyria_button"
+            android:src="@drawable/valk_button_selector"
+            android:background="@null"
+            android:onClick="valkyriaUpdate"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector"
+        android:layout_below="@+id/horizontalScroll" />
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/Segify/app/src/main/res/layout-land/activity_main.xml -->

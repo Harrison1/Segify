@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/genesisgrey" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/genesisgrey" /> <!-- focused -->
+    <item android:drawable="@drawable/genesis" /> <!-- default -->
+
+</selector><!-- From: file:/D:/AndroidStudioProjects/Segify/app/src/main/res/drawable/genesis_button_selector.xml -->

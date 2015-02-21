@@ -1,0 +1,6 @@
+D:\AndroidStudioProjects\Segify\app\build\intermediates\classes\debug
+D:\AndroidStudioProjects\Segify\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ce9ffc09c6a0c4ce7e95a06480a86341f03e9c08.jar
+D:\AndroidStudioProjects\Segify\app\build\intermediates\pre-dexed\debug\volley-acc43c29005319fc9b68e086e6f1d68db4768bdd.jar
+D:\AndroidStudioProjects\Segify\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-233f98001088d1004431fdbceb72e856b06aa9a0.jar
+D:\AndroidStudioProjects\Segify\app\build\intermediates\pre-dexed\debug\classes-a367bc8771a9165bae04c947eb5ed11c1783cc4d.jar
+D:\AndroidStudioProjects\Segify\app\build\intermediates\pre-dexed\debug\classes-829975d4378223983421ae08187c1f405465a9e5.jar
