@@ -21,6 +21,7 @@
         android:layout_alignTop="@+id/thumbnail"
         android:layout_toRightOf="@+id/thumbnail"
         android:textSize="@dimen/title"
+        android:maxLines="2"
         android:textStyle="bold"
         android:textColor="#ff000000" />
 
