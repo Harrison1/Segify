@@ -100,7 +100,7 @@ public class MainActivity extends Activity {
                 String postUrl = ((TextView) view.findViewById(R.id.postUrl)).getText().toString();
                 Intent intent = new Intent(getApplicationContext(), WebViewActivity.class);
                 intent.putExtra("url", postUrl);
-                Log.d("THE URL IS", postUrl);
+                Log.d("the url", postUrl); // for debugging
                 startActivity(intent);
             }
         });
@@ -108,11 +108,11 @@ public class MainActivity extends Activity {
         //Once the app launches, by default update list row with /r/sega/.json data
         updateList(sega);
 
+        //add the load more button at the bottom of the list
         Button btnLoadMore = (Button) findViewById(R.id.load_more_button);
         btnLoadMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                // Starting a new async task
                 loadMore(jsonSubreddit);
             }
         });
