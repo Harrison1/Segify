@@ -1,7 +1,7 @@
 # Segify
 Android app using Volley to json parse sega related subreddits.
 
-Below is a link of a tutorial series I made about recyclerviews
+here is a link of a tutorial series I made about recyclerviews
 https://www.youtube.com/watch?v=8ePqYGMxdSY&list=PLQjeFjKrwMBvDeocKVEt28c3sURkvH6Vo
 
 Google Play
